@@ -1,5 +1,5 @@
 {
-  "name": "lotsik/event-store",
+  "name": "prooph/event-store",
   "type": "library",
   "license": "BSD-3-Clause",
   "authors": [
