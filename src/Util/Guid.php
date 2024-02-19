@@ -64,7 +64,7 @@ class Guid
     private static function factory(): UuidFactory
     {
         if (null === self::$factory) {
-            self::$factory = new UuidFactory(new FeatureSet(true));
+            self::$factory = new UuidFactory(new FeatureSet(false));
         }
 
         return self::$factory;
