@@ -23,7 +23,7 @@ class Guid
 
     public static function generate(): UuidInterface
     {
-        return self::factory()->uuid4();
+        return self::factory()->uuid7();
     }
 
     public static function generateString(): string
