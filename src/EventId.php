@@ -36,7 +36,7 @@ class EventId
         return new self(Guid::fromBytes($bytes));
     }
 
-    private function __construct(UuidInterface $eventId)
+    protected function __construct(UuidInterface $eventId)
     {
         /** @psalm-suppress ImpurePropertyAssignment */
         $this->uuid = $eventId;
